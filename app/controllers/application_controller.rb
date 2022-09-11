@@ -3,10 +3,12 @@ class ApplicationController < Sinatra::Base
   set :default_content_type, 'application/json'
   
   # Add your routes here
+  
   get "/" do
     { message: "Good luck with your project!" }.to_json
   end
 
+<<<<<<< HEAD
   get "/planners" do
     Planner.all.to_json
    end
@@ -73,4 +75,7 @@ class ApplicationController < Sinatra::Base
     requests.to_json
   end
 
+=======
+  
+>>>>>>> 8faa96b52e5dbc2927a3a3755b54304a4f5cf7fe
 end
