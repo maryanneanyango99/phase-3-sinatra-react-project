@@ -1,4 +1,4 @@
 class Request < ActiveRecord::Base
-    belongs_to :events
-      
-  end
+  belongs_to :events
+    
+end
